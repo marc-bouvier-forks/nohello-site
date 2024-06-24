@@ -1,7 +1,7 @@
 import i18n from './src/util/i18n';
 import Image from '@11ty/eleventy-img';
 
-const imagify = async (src, options = {}) => {
+const imagify = async (src, options = { }) => {
   const defaults = {
     outputDir: './build/img/',
   };
